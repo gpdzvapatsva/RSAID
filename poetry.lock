@@ -1,0 +1,28 @@
+[[package]]
+category = "main"
+description = "Pure Python, cross platform, single function module with no dependencies for playing sounds."
+name = "playsound"
+optional = false
+python-versions = "*"
+version = "1.2.2"
+
+[[package]]
+category = "main"
+description = "South African ID number utilities"
+name = "rsa-id-number"
+optional = false
+python-versions = ">=3.6"
+version = "0.0.3"
+
+[metadata]
+content-hash = "6d0ad285fdac1b49384a4898c916184a2cbb80d7c07382424cfe2118d42137ca"
+python-versions = "^3.8"
+
+[metadata.files]
+playsound = [
+    {file = "playsound-1.2.2-py2.py3-none-any.whl", hash = "sha256:1e83750a5325cbccee03d6e751ba3e78c037ac95b95a3ba1f38d0c5aca9e1a34"},
+]
+rsa-id-number = [
+    {file = "rsa-id-number-0.0.3.tar.gz", hash = "sha256:d24e6474b84351758312bfaa1a76577ae74e1ce1995f8dfd59dd7283013bf29a"},
+    {file = "rsa_id_number-0.0.3-py3-none-any.whl", hash = "sha256:5e1a7412d3df1658a198e99ce9269f9004b8bf809a5cd09baa94964f6de7ff94"},
+]
